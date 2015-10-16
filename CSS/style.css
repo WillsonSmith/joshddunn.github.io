@@ -58,6 +58,11 @@ a:hover {
 	padding-bottom: 15px;
 }
 
+.button a, .activebutton a {
+	color: white;
+	text-decoration: none;
+}
+
 .activebutton {
 	color: white;
 	padding-bottom: 15px;
