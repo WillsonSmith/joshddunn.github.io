@@ -1,0 +1,124 @@
+body {
+	font-family: Sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	padding: 10px;
+	margin-right: -5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #A7A7A7;
+}
+
+.head {
+	text-align: center;
+	background: #333;
+}
+
+.name {
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	padding: 60px 0 35px 0;
+}
+
+.pagepic {
+	width: 100%;
+	height: 300px;
+	padding: 50px 0 25px 0;
+}
+
+.profilepic {
+	width: 200px;
+	height: 300px;
+	padding: 0 0 0 10%;
+	float: left;
+}
+
+.button a:visited, .activebutton a:visited {
+	color: white;
+}
+
+.button {
+	color: white;
+	padding-bottom: 15px;
+}
+
+.activebutton {
+	color: white;
+	padding-bottom: 15px;
+	background-color: #585858;
+}
+
+.button a:hover, .activebutton a:hover{
+	color: #A7A7A7;
+}
+
+.homeinfo a, .homeinfo a:visited {
+	color: black;
+	text-decoration: underline;
+}
+
+.homeinfo a:hover {
+	color: #A7A7A7;
+}
+
+.homeinfo {
+	padding: 50px 10% 0 350px;
+	text-align: justify;
+}
+
+.icon {
+	display: inline-block;
+	text-align: center;
+}
+
+.menucontact {
+	text-align: center;
+}
+
+.citation {
+	padding: 20px 15% 0 15%;
+	text-align: justify;
+}
+
+.pubdes {
+	padding: 0 10%;
+	text-align: justify;
+}
+
+.mainborder {
+	width: 750px;
+	margin: auto;
+}
+
+.contli {
+	padding: 0 5px;
+	margin: 0;
+}
+
+.in {
+	color: #007bb5;
+}
+
+.twit {
+	color: #4099FF;
+}
+
+.git {
+	color: black;
+}
