@@ -45,8 +45,6 @@ a:hover {
 .profilepic {
 	width: 200px;
 	height: 300px;
-	padding: 0 0 0 10%;
-	float: left;
 }
 
 .button a:visited, .activebutton a:visited {
@@ -83,8 +81,8 @@ a:hover {
 }
 
 .homeinfo {
-	padding: 50px 10% 0 350px;
 	text-align: justify;
+	margin: 0 0 20px 0;
 }
 
 .icon {
@@ -126,4 +124,24 @@ a:hover {
 
 .git {
 	color: black;
+}
+
+.content-wrapper:after {
+	display: table;
+	content: "";
+	clear: both;
+
+}
+.sidebar {
+	float: left;
+	width: 25%;
+}
+.sidebar img {
+	max-width: 100%;
+}
+.main-content {
+	box-sizing: border-box;
+	float: left;
+	padding: 0 0 0 20px;
+	width: 75%;
 }
